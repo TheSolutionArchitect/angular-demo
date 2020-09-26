@@ -13,7 +13,7 @@ npm i hammerjs
 
 Angular-cli from css to scss
 
-https://stackoverflow.com/questions/40726081/angular-cli-from-css-to-scss/45255290
+//https://stackoverflow.com/questions/40726081/angular-cli-from-css-to-scss/45255290
 
 Change the default style extension to scss
 Manually change in .angular-cli.json (Angular 5.x and older) or angular.json (Angular 6+) or run:
@@ -22,3 +22,8 @@ ng config defaults.styleExt=scss
 if you get an error: Value cannot be found. use the command:
 
 ng config schematics.@schematics/angular:component.styleext scss
+
+Experimental support for decorators is a feature that is subject to change in a future release. Set the 'experimentalDecorators' option in your 'tsconfig' or 'jsconfig' to remove this warning.ts(1219)
+Soluntion: in VS Code 
+File -> Preferences -> Settings
+find experimentalDecorators and enable experimentalDecorators 
