@@ -29,3 +29,8 @@ File -> Preferences -> Settings
 find experimentalDecorators and enable experimentalDecorators 
 
 // mat icons https://klarsys.github.io/angular-material-icons/
+
+Error: Angular JIT compilation failed: '@angular/compiler' not loaded!
+  - JIT compilation is discouraged for production use-cases! Consider AOT mode instead.
+  Solution:
+  Turn off the AOT by changing "aot": true to "aot: false in angular.json file. I would not recommend this as this improves the performance of the Angular app and improves the catching of error codes in development mode.
