@@ -27,3 +27,5 @@ Experimental support for decorators is a feature that is subject to change in a 
 Soluntion: in VS Code 
 File -> Preferences -> Settings
 find experimentalDecorators and enable experimentalDecorators 
+
+// mat icons https://klarsys.github.io/angular-material-icons/
