@@ -10,3 +10,15 @@ The @angular/material package provides the components of the Material Design, @a
 ng add @angular/material
 npm i @angular/flex-layout
 npm i hammerjs
+
+Angular-cli from css to scss
+
+https://stackoverflow.com/questions/40726081/angular-cli-from-css-to-scss/45255290
+
+Change the default style extension to scss
+Manually change in .angular-cli.json (Angular 5.x and older) or angular.json (Angular 6+) or run:
+
+ng config defaults.styleExt=scss
+if you get an error: Value cannot be found. use the command:
+
+ng config schematics.@schematics/angular:component.styleext scss
