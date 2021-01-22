@@ -1,0 +1,16 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <button mat-icon-button>
+      <mat-icon>menu</mat-icon>
+    </button>
+    <div><a href="https://awstechguide.com" target="_blank" class="positronx">AWS Tech Guide</a></div>
+    <span class="menu-spacer"></span>
+    <div>
+      <a mat-button [routerLink]="'/dashboard'"> Dashboard </a>
+      <a mat-button [routerLink]="'/login'"> Login </a>
+      <a mat-button [routerLink]="'/register'"> Register </a>
+      <a mat-button [routerLink]="'/create-candidate-profile'"> Create Applicant Profile </a>
+      <a mat-button [routerLink]="'/create-user-profile'"> Create User Profile </a> 
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>

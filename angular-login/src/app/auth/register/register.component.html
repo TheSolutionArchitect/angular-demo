@@ -1,3 +1,4 @@
+<app-toolbar></app-toolbar>
 <div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
     <mat-card class="box">
       <mat-card-header>
@@ -21,7 +22,7 @@
   
           <mat-form-field class="example-full-width">
             <mat-label>Choose a role...</mat-label>
-            <mat-select [(value)]="selected">
+            <mat-select>
               <mat-option [value]="roles" *ngFor="let roles of Roles">{{roles}}
               </mat-option>
             </mat-select>
