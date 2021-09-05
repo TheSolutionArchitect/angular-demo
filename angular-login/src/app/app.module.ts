@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AngularMaterialModule } from './angular-material/angular-material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -48,7 +49,7 @@ import { InstitutionprofileComponent } from './organization/institution/institut
     BrowserAnimationsModule,
     AngularMaterialModule,
     FlexLayoutModule,
-    FormsModule, ReactiveFormsModule
+    FormsModule, ReactiveFormsModule, HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],
