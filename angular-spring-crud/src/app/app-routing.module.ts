@@ -5,7 +5,7 @@ import {ManageUserComponent} from '../app/components/user/manage-user/manage-use
 import {ListUserComponent} from '../app/components/user/list-user/list-user.component'; 
 
 const routes: Routes = [
-  { path: '', redirectTo: 'awstg', pathMatch: 'full' },
+  { path: '', redirectTo: 'listuser', pathMatch: 'full' },
   { path: 'adduser', component: AddUserComponent },
   { path: 'manageuser/:id', component: ManageUserComponent },
   { path: 'listuser', component: ListUserComponent }
